@@ -2,5 +2,5 @@
 .*.sw?
 *.o
 *.map
-bootsec.bin
-bootsec.elf
+*.bin
+*.elf
