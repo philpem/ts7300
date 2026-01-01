@@ -34,7 +34,7 @@ I've reverse-engineered the boot sector used by TS's Linux images. The source co
 
 There are two versions:
 
-  * The original (which loads the kernel at `0x0021_8000`
+  * The original (which loads the kernel at `0x0021_8000` and initrd at `0x0100_0000`)
   * A modified version which loads the kernel at `0x0400_0000` and 'feeds' the CPLD watchdog timer before jumping to it.
 
 The modified version can load larger kernels, and is particularly useful for the 6.x-series kernels which can be 6MB uncompressed. The limit is around 8MB (kernel code plus data) uncompressed, and the same again for the compressed kernel.
