@@ -19,10 +19,10 @@ The various kernels require different toolchains.
 
 Where I needed older compilers than were available in the Mint/Ubuntu/Debian repositories, I've used the Linaro toolchains:
 
-  * [https://releases.linaro.org/components/toolchain/binaries/latest-6/arm-linux-gnueabi/](GCC 6.x Linaro, software floating-point)
-  * [https://releases.linaro.org/components/toolchain/binaries/latest-6/arm-linux-gnueabihf/](GCC 6.x Linaro, hardware floating-point)
+  * [GCC 6.x Linaro, software floating-point](https://releases.linaro.org/components/toolchain/binaries/latest-6/arm-linux-gnueabi/)
+  * [GCC 6.x Linaro, hardware floating-point](https://releases.linaro.org/components/toolchain/binaries/latest-6/arm-linux-gnueabihf/)
 
-Look for the `gcc-linaro-6.5.0-2018.12-` tarballs.
+Look for the `gcc-linaro-6.5.0-2018.12-...` tarballs.
 
 ## MaverickCrunch
 
